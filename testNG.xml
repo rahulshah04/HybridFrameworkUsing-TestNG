@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "TestNGFramework_TestSuite" parallel = "none">
+	<test name = "Mercury Tours ChromeTest">
+		<!-- groups>
+			<run>
+			<include name="SmokeTest" /> 
+			</run>
+		</groups-->
+		<!--  parameter name = "browser" value = "chrome" /--> 
+		<classes>
+			<class name = "com.rks.TestNGFramework_TDD.Test.MercuryTours" />
+		</classes> 
+	</test>
+	<!-- test name = "Mercury Tours FirefoxTest" parallel = "none">
+	<parameter name = "browser" value = "firefox" /> 
+	<classes>
+		<class name = "com.rks.TestNGFramework_TDD.Test.MercuryTours" />
+	</classes>
+	</test-->
+</suite>

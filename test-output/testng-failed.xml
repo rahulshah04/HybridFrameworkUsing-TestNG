@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGFramework_TestSuite]">
+  <test thread-count="5" name="Mercury Tours ChromeTest(failed)">
+    <classes>
+      <class name="com.rks.TestNGFramework_TDD.Test.MercuryTours">
+        <methods>
+          <include name="mercuryToursFlightFinderPage"/>
+          <include name="mercuryToursBeforeMethod"/>
+          <include name="mercuryToursLoginPage"/>
+          <include name="mercuryToursAfterMethod"/>
+        </methods>
+      </class> <!-- com.rks.TestNGFramework_TDD.Test.MercuryTours -->
+    </classes>
+  </test> <!-- Mercury Tours ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestNGFramework_TestSuite] -->
